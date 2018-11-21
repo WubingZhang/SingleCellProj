@@ -22,7 +22,7 @@
 AssignCellType <- function(markers, org = "hsa", celltype.markers = NA){
   if(is.na(celltype.markers)){
     data("Merged_CellMarker")
-    celltype.markers = Merged_CellMarker
+    celltype.markers = CellMarker
   }
 
   if(org == "mmu"){
